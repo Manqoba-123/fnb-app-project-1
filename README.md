@@ -33,4 +33,18 @@ your_branch
 main*
 ```
 
-To change to your
+To change to your branch use
+
+```
+git checkout name_of_your_branch
+```
+
+Make sure before you push code to your branch you will use the following
+
+```
+git add .
+git commit -m "Your commit message"
+git push origin name_of_your_branch
+```
+
+For questions please ask on whatsapp group
