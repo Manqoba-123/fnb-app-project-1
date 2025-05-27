@@ -47,4 +47,6 @@ git commit -m "Your commit message"
 git push origin name_of_your_branch
 ```
 
+Don't forget 
+
 For questions please ask on whatsapp group
