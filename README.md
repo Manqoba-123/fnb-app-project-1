@@ -54,6 +54,6 @@ git fetch
 git merge origin/main
 ```
 
-To get all the latest changes from main(Make sure you are inside your repo not main repo)
+To get all the latest changes from main(Make sure you are inside your branch not main branch)
 
 For questions please ask on whatsapp group
