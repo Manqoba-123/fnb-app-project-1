@@ -5,6 +5,111 @@
 }
 
 /**The part for landing page**/
+.landing-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededec;
+}
+
+.right-box {
+    background-color: #df2c14;
+    width: 50%;
+    height: 100vh;
+}
+
+.right-box h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+.right-box img {
+    width: 300px;
+    height: 400px;
+    margin-inline-start: 100px;
+    border-radius: 15px;
+}
+
+.bio-btn-c {
+    margin-top: 50px;
+    width: 300px;
+    height: 60px;
+    margin-inline-start: 100px;
+    border-radius: 8px;
+    border: 2px solid #494E61;
+    transition: 0.5s ease-in-out;
+    cursor: pointer; 
+    background: linear-gradient(to right, #494E61, #df2c14);
+}
+
+.bio-btn-c p {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.bio-btn-c:hover {
+    background: linear-gradient(to right, #494E61, #494E61);
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.left-box {
+    width: 50%;
+    height: 100vh;
+}
+
+.marvel-studio {
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.marvel-studio .marvel {
+    background-color: #df2c14;
+    color: #fff; 
+    text-decoration: none;
+}
+
+.studio {
+    background-color: #ededec;
+    border-top:  2px solid black;
+    border-bottom: 2px solid black;
+    margin: 5px;
+}
+
+.landing-video iframe {
+    justify-content: center;
+    height: 315px;
+    background-color: #000;
+    margin-inline-start: 100px;
+    margin-top: 70px;
+    border-radius: 8px;
+}
+
+.know-heroes-btn-c {
+    justify-content: center;
+    padding: 15px 20px;
+    margin-top: 70px;
+    font-size: 25px;
+    margin-inline-start: 120px;
+    border: 2px solid  #df2c14;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.know-heroes-btn-c:hover {
+    background-color: #f55050;
+    transform: scale(1.2);
+}
 /**The part for page1**/
 /**The part for page2**/
 /**The part for page3**/
