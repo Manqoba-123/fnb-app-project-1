@@ -47,6 +47,13 @@ git commit -m "Your commit message"
 git push origin name_of_your_branch
 ```
 
-Don't forget 
+Don't forget to fetch the latest commits from main
+
+```
+git fetch
+git merge origin/main
+```
+
+To get all the latest changes from main(Make sure you are inside your repo not main repo)
 
 For questions please ask on whatsapp group
