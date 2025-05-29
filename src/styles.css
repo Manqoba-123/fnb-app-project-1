@@ -44,7 +44,6 @@
     border-radius: 8px;
     border: 2px solid #494E61;
     transition: 0.5s ease-in-out;
-    cursor: pointer; 
     background: linear-gradient(to right, #494E61, #df2c14);
     text-decoration: none;
     font-size: 40px;
@@ -115,4 +114,54 @@
 }
 /**The part for page1**/
 /**The part for page2**/
-/**The part for page3**/
+/**Heroes page**/
+nav, .menu {
+    display: flex;
+}
+
+#desktop-nav {
+    /**To be removed**/
+    margin-top: 70px;
+    /**To be removed**/
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 12vh;
+    color: #ffffff;
+    background: linear-gradient(to right, blue, red)
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+}
+
+.logo h2 {
+    border: 1px solid #ffffff;
+}
+
+.logo h4 {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-menu a:hover {
+    color: #f1cfcf;
+    border-bottom: 2px solid #1708f1;
+}
