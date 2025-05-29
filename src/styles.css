@@ -5,6 +5,114 @@
 }
 
 /**The part for landing page**/
+.landing-container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ededec;
+    flex-wrap: wrap;
+}
+
+.right-box {
+    background-color: #df2c14;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-box h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.right-box img {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.right-box a {
+    margin-top: 50px;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 2px solid #494E61;
+    transition: 0.5s ease-in-out;
+    cursor: pointer; 
+    background: linear-gradient(to right, #494E61, #df2c14);
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.right-box a:hover {
+    background: linear-gradient(to right, #494E61, #494E61);
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.left-box {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marvel-studio {
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.marvel-studio .marvel {
+    background-color: #df2c14;
+    color: #fff; 
+    text-decoration: none;
+}
+
+.studio {
+    background-color: #ededec;
+    border-top:  2px solid black;
+    border-bottom: 2px solid black;
+    margin: 5px;
+}
+
+.landing-video iframe {
+    justify-content: center;
+    height: 315px;
+    background-color: #000;
+    margin-top: 70px;
+    border-radius: 8px;
+}
+
+.know-heroes-btn-c {
+    justify-content: center;
+    padding: 15px 20px;
+    margin-top: 40px;
+    font-size: 25px;
+    border: 2px solid  #df2c14;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.know-heroes-btn-c:hover {
+    background-color: #f55050;
+    transform: scale(1.2);
+}
 /**The part for page1**/
 /**The part for page2**/
 /**The part for page3**/

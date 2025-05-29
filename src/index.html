@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Marvel App</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--Please note as we working on different branches you have to put your divs and everything inside the section you dealing with.-->
     <!--The sections we have now are subject to be changed according to how the code looks -->
-    <section id="landing-page"></section>
+    <section id="landing-page">
+      <div class="landing-container">
+        <div class="right-box">
+          <h3>Stan Lee</h3>
+          <img src="/img/Lee_Stan.jpg" />
+          <a href="https://en.wikipedia.org/wiki/Stan_Lee" target="_blank">Biography</a>
+        </div>
+        <div class="left-box">
+          <h2 class="marvel-studio">
+            <span class="marvel">Marvel</span
+            ><span class="studio">Studios</span>
+          </h2>
+          <div class="landing-video">
+            <iframe
+              src="https://www.youtube.com/embed/u3Vk63M3-Xw?si=UfY0q3FlqZyDKCjT"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <button class="know-heroes-btn-c" id="know-your-heroes-btn">
+            Know Your Heroes
+          </button>
+        </div>
+      </div>
+    </section>
     <section id="page1"></section>
     <section id="page2"></section>
     <section id="page3"></section>
 
     <script src="index.js"></script>
-</body>
-
+  </body>
 </html>
