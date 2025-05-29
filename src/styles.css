@@ -6,17 +6,22 @@
 
 /**The part for landing page**/
 .landing-container {
-    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #ededec;
+    flex-wrap: wrap;
 }
 
 .right-box {
     background-color: #df2c14;
     width: 50%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-box h3 {
@@ -24,35 +29,31 @@
     text-decoration: underline;
     color: #ffffff;
     font-size: 35px;
-    margin-top: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 50px;
 }
 
 .right-box img {
     width: 300px;
     height: 400px;
-    margin-inline-start: 100px;
     border-radius: 15px;
 }
 
-.bio-btn-c {
+.right-box a {
     margin-top: 50px;
-    width: 300px;
-    height: 60px;
-    margin-inline-start: 100px;
+    color: #ffffff;
     border-radius: 8px;
     border: 2px solid #494E61;
     transition: 0.5s ease-in-out;
     cursor: pointer; 
     background: linear-gradient(to right, #494E61, #df2c14);
-}
-
-.bio-btn-c p {
+    text-decoration: none;
     font-size: 40px;
     font-weight: 900;
+    padding: 5px 10px;
+    text-align: center;
 }
 
-.bio-btn-c:hover {
+.right-box a:hover {
     background: linear-gradient(to right, #494E61, #494E61);
     transform: scale(1.2);
     opacity: 1;
@@ -61,6 +62,10 @@
 .left-box {
     width: 50%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .marvel-studio {
@@ -90,7 +95,6 @@
     justify-content: center;
     height: 315px;
     background-color: #000;
-    margin-inline-start: 100px;
     margin-top: 70px;
     border-radius: 8px;
 }
@@ -98,9 +102,8 @@
 .know-heroes-btn-c {
     justify-content: center;
     padding: 15px 20px;
-    margin-top: 70px;
+    margin-top: 40px;
     font-size: 25px;
-    margin-inline-start: 120px;
     border: 2px solid  #df2c14;
     border-radius: 10px;
     transition: 0.5s ease-in-out;
