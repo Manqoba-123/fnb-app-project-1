@@ -4,7 +4,132 @@
     box-sizing: border-box;
 }
 
-/**The part for landing page**/
-/**The part for page1**/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #65074d, #9a1818 30%, transparent 100%);
+  color: white;
+  padding: 30px 40px;
+}
+
+.headings h1,
+.headings h2 {
+  margin: 0;
+  color: white;
+}
+
+.headings h2 {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+.headings h1 {
+  border: 1px solid white;
+  padding:7px;
+  border-style: dotted;
+}
+
+.headings h1:hover,
+.headings h2:hover {
+  border-bottom: 2px solid skyblue;
+}
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  border-bottom: 3px solid deepskyblue;
+}
+
+
+.slideshowimg img{
+    width:100%;
+    height:300px;
+    display: block;
+
+}
+.slideshowimg :hover{
+     border: 4px solid skyblue; 
+  cursor: pointer;  
+
+}
+.heroes-section {
+  background-color:lightgray;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-card {
+    /**
+  background-color: white;
+  border-radius: 10px;
+ 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+**/
+  border-radius: 10px;
+  padding: 10px;
+} 
+  
+
+.hero-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  
+  
+}
+
+.hero-card p {
+  margin-top: 10px;
+  color:black;
+  font-family: sans-serif;
+  text-align: center;
+}
+.hero-card img:hover {
+  border: 4px solid skyblue; 
+  cursor: pointer;           
+}
+
+.show-more-container {  /**umzali-the button**/
+  margin-top: 30px;
+  text-align: center;
+  
+}
+
+.show-more-container button { /**inside**/
+  background-color:red;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  
+  
+}
+
+
+
 /**The part for page2**/
 /**The part for page3**/
